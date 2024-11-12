@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color:black; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 120vw 200vh;
+    background-position: center;
+    position: relative;
+}
+
+#day0 {
+    top: 400px;
+    left: 650px;
+    width: 200px;
+    height: 160px;
+    padding: 10px;
+    background-color: brown;
+}
+
+#day1 {
+    top: 300px;
+    left: 340px;
+    width: 200px;
+    height: 180px;
+    padding: 10px;
+    background-color: rgb(8, 124, 21);
+}
+
+#day2 {
+    top: 400px;
+    right: 350px;
+    width: 200px;
+    height: 240px;
+    padding: 10px;
+    background-color: rgb(213, 11, 11);
+}
+
+#day3 {
+    top: 100px;
+    right: 500px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(11, 182, 85);
+}
+
+#day4 {
+    top: 260px;
+    width: 200px;
+    height: 205px;
+    padding: 10px;
+    background-color: white;
+}
+
+#day5 {
+    top: 600px;
+    left: 360px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(234, 12, 197);
+}
+
+#killers {
+    top: 460px;
+    right: 20px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+#boniver {
+    top: 635px;
+    right: 600px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+#idol {
+    top: 0px;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+#suki {
+    left: 570px;
+    top: 40px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+#stevelacy {
+    top: 600px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+p {
+    position: absolute;
+}
+
+#head {
+    width: 400px;
+    height: 400px;
+    left: 100px;
+    padding: 10px;
+}
+
+
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+  
+
+#head {
+    color: antiquewhite;
+}

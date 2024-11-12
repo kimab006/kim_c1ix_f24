@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-color: darkred;
+    margin: 0; 
+    padding: 0;
+}
+
+.white {
+    color: antiquewhite;
+}
+
+#entries {
+    width: 900px;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    left: calc(50vw - 450px);
+    padding-left: 1cm;
+    top: 70%; 
+    z-index: 2; 
+}
+
+#everything {
+    position: relative;
+    height: 100vh; 
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+#text-container {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1; 
+    padding-left: 2cm;
+}
+
+h1 {
+    font-size: 4rem; 
+    margin: 0; 
+    padding: 1em 0; /*note to self this moves the whole text down*/
+    padding-left: 12cm;
+    padding-right: 12cm;
+}
+
+h2, h3 {
+    font-size: 1.25rem; 
+    padding-left: 12cm;
+    padding-right: 12cm;
+    margin: 0.5em 0;
+}
+
+.vinyl {
+    width: 80%; 
+    height: 80%; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+hr {
+    width: 60%; 
+    margin: 1em auto;
+}

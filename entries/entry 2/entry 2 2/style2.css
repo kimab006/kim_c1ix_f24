@@ -1,0 +1,100 @@
+
+
+
+#vinyl_position {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    
+}
+
+
+#head1 {
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#lorde {
+    width: 400px;
+    animation-name: lorde-rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+}
+
+#fleet {
+    width: 400px;
+    animation-name: fleet-rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+}
+
+#george {
+    width: 400px;
+    animation-name: george-rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+}
+
+#strokes {
+    width: 400px;
+    animation-name: strokes-rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+}
+
+#tribe {
+    width: 400px;
+    animation-name: tribe-rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+}
+
+@keyframes tribe-rotate {
+    0% {transform: rotate(359deg)}
+    100% {transform: rotate(0deg)}
+}
+
+@keyframes strokes-rotate {
+    0% {transform: rotate(359deg)}
+    100% {transform: rotate(0deg)}
+}
+
+@keyframes george-rotate {
+    0% {transform: rotate(359deg)}
+    100% {transform: rotate(0deg)}
+}
+
+@keyframes fleet-rotate {
+    0% {transform: rotate(359deg)}
+    100% {transform: rotate(0deg)}
+}
+
+@keyframes lorde-rotate {
+    0% {transform: rotate(359deg)}
+    100% {transform: rotate(0deg)}
+}
+
+body {
+    margin: 0;
+    background-image: url(assets/orangblackaura.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    position: relative;
+}
+
+@media (max-width: 750px) {
+    h1 {
+      visibility: hidden;
+    }
+  
+}
+
+

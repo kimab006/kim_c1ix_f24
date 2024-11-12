@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #b4690e;
+  }
+  
+  .doto-h1 {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20pt;
+    font-weight: 700;
+    font-style: normal;
+    width: 80%;
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px;
+    position: absolute;
+    top: 5%; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+  h1 {
+    font-size: .25rem;
+    margin-top: 2rem;
+    padding-left: 6cm;
+    padding-right: 6cm;
+    display: center;
+    color: antiquewhite;
+  }
+
+  
+ 
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    margin-top: 50vh; 
+  }
+  
+ 
+  .content p {
+    width: 250px; 
+    background-color: #ffdba4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(79, 18, 1, 0.503);
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  
+  .content p:hover {
+    background-color: #530101; 
+    transform: translateY(-5px); 
+  }
+  
+  

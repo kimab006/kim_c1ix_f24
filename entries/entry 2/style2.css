@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-image: url(assets/orangblackaura.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    position: relative;
+}
+
+.doto-h1 {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30pt;
+    font-weight: 700;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px;
+    position: absolute;
+    top: 5%; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#vinyl_position {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50%; 
+    position: relative; 
+    width: 100%;
+    padding-top: 20%; 
+}
+
+
+.circle {
+    width: 18.5%;
+    margin: 10px;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+
+#lorde {
+    animation-name: lorde-rotate;
+}
+
+#fleet {
+    animation-name: fleet-rotate;
+}
+
+#george {
+    animation-name: george-rotate;
+}
+
+#strokes {
+    animation-name: strokes-rotate;
+}
+
+#tribe {
+    animation-name: tribe-rotate;
+}
+
+@keyframes tribe-rotate {
+    0% { transform: rotate(359deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes strokes-rotate {
+    0% { transform: rotate(359deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes george-rotate {
+    0% { transform: rotate(359deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes fleet-rotate {
+    0% { transform: rotate(359deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes lorde-rotate {
+    0% { transform: rotate(359deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+@media (max-width: 750px) {
+    h1 {
+        visibility: hidden; 
+    }
+
+    #vinyl_position {
+        height: 85%; 
+    }
+
+    .circle {
+        width: 45%; 
+        margin: 5px;
+    }
+}
